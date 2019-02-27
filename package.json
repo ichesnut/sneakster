@@ -1,0 +1,30 @@
+{
+  "name": "google-calendar-slack-status",
+  "version": "1.0.0",
+  "description": "Automatically sync your Google Calendar events to your Slack status",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "8.9.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjork24/google-calendar-slack-status.git"
+  },
+  "keywords": [],
+  "author": "Dan Chilton <dan.chilton@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bjork24/google-calendar-slack-status/issues"
+  },
+  "homepage": "https://github.com/bjork24/google-calendar-slack-status#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "moment": "^2.20.1",
+    "morgan": "^1.9.0",
+    "slack": "^10.1.1"
+  }
+}
